@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+BestCrypt NP 6.06
 
-You can use the [editor on GitHub](https://github.com/edravis/edravis.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+When we first reviewed this software ‘way back’ in October 1998, we were extremely impressed, and awarded it our highest rating. Unlike many of the applications that we review, we actually kept this installed on one of our PCs, and although our long-term use of the software did uncover a couple of very minor problems, we were still extremely impressed.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Version 6.04 actually improves on its predecessor. It is described as providing the most comprehensive and easy to use secure data storage and access control facilities available. The data encryption method used utilises some of the most advanced, state of the art encryption algorithms - DES, GOST 28147-89, Twofish and Blowfish. The key feature of the software is it's ease of use - when setup correctly, the system is completely transparent for data and application use.
 
-### Markdown
+Features:  The software is easy to install, setup and use, and features are limited only to the useful - there are no gimmicks. The way that the system works is as follows. Through the interface, an area of the hard drive is set-apart as an encrypted area - a container. The user sets all characteristics, including name, size and password. The interface makes the process extremely simple. When opened, this container is appointed a virtual drive letter (e.g.: Drive Z:) and effectively works as a normal drive. Once setup, the data and/or applications can be placed or installed 'on' the virtual drive, in exactly the same way as you would work with a separate hard drive. When the container is "dismounted" or closed, the data can no longer be accessed or seen. The main advantage to the system is it's transparency; once opened, there are no restrictions whatsoever to a container's use. The software also allows some very useful options to be set; for instance, upon the computer starting up, there can be an automatic prompt for the password to open a container. Useful additions to this version include access through the system tray, a container guard utility and various minor improvements and enhancements.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The container can also be set to automatically dismount after X minutes of inactivity, and will automatically dismount when the computer is turned off. All of these features can be set very simply through the software control panel, and there is also complete integration with the Windows shell - all the main functions can be accessed through the Windows 95/98 Explorer. In addition to this, there is a wiping utility to securely delete files from a disk - see Keep it safe for more information.
 
-```markdown
-Syntax highlighted code block
+Problems:  No serious problems were noted. The documentation does warn that the container guard utility might conflict with other residential software, which proved to be the case on our main test machine. However the software itself did take care of the problem by recognising it on boot-up, and advising us how to deal with it. The instructions were very clear, and there were no further problems.
 
-# Header 1
-## Header 2
-### Header 3
+Like the earlier version that we reviewed, we did notice that data transfer rates were noticeably slower for larger files, but this is very much part of the territory of encryption. For 'normal' use, there is almost no perceived slow-down. However, the user of this sort of software has to understand that this is merely a tool - and not a 100% airtight global solution - see Keep it safe below.
 
-- Bulleted
-- List
+Keep it safe:  There is a lot more to keeping files and data safe than just encrypting them; some are common sense, while others require a simple understanding of some fundamental issues. The analogy of the chain being as strong as it's weakest link applies well here. For example, it's far from uncommon to see a person's password lying right next to their computer, and as for the number of people that use the name of their husband/wife etc… Passwords are a key component of the security of the system - ideally, a password should be longer than eight characters, with a mix of case, digits and symbols - a password such as Y_rUt20xYj is somewhat harder to guess than FRED, but the obvious problem here is how to remember the password without the Post-It on the monitor. As a simple rule of thumb, keep your password at least eight characters long, keep a mixture of case and/or digits, and change it regularly.
 
-1. Numbered
-2. List
+While there are a lot of common-sense security measures that can and should be taken, there are other factors to take into consideration. For instance, Windows uses a part of your hard drive as virtual memory, meaning it automatically writes certain information to your hard drive (without you knowing it) in a file called the swap file. This means that even though your file may be encrypted, and you have viewed, closed and re-encrypted it, parts of it may still be accessible through the swap file. Another factor is the way that files are deleted. The basic idea is that when you delete a file, you do not erase the contents at all. Windows merely removes a part of the name, marking that it can be 'written over' in the future. This means that you can delete a file, then delete it from the recycle bin, yet all the information can still be accessed if searched for. Because of this, BestCrypt comes with a FileWiping utility, that removes all traces of the data; it can securely delete a file, the contents of the swap file, and even the 'empty' space on a whole drive.
 
-**Bold** and _Italic_ and `Code` text
+Also, beware of applications that might store your data in other forms - even though the original data may be encrypted. One example of this might be a graphics file viewer. There is an excellent explanation of this outlined on the Jetico site.
 
-[Link](url) and ![Image](src)
-```
+Support & upgrades:  Registered users receive full and unlimited support by Email, although it is unlikely that any will be needed. An upgrade from a previous version costs $19.95.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edravis/edravis.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Conclusion:  BestCrypt is an extremely powerful encryption utility, notable for it's ease of use, and excellent facilities. If you're looking for a way of securing your data, we find it hard to believe that there's a better way of doing so. Version 6.04 further enhances a first-class product.
